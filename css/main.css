@@ -32,7 +32,7 @@ body {
   text-decoration: none;
   background-color: #555;
   color: #fff;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   margin: 2rem .875rem;
 }
@@ -87,11 +87,11 @@ h1 {
     margin: 0 0 1.4rem;
   }
 
-  img {
+  .img-flex {
     display: inline-block;
     width: 48%;
     margin-top: 0;
-    padding-bottom: 3.5rem;
+    padding-bottom: 2rem;
   }
 
   .text {
@@ -106,12 +106,34 @@ h1 {
   }
 
   h1 {
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     margin-bottom: 1rem;
   }
 
   a {
     padding: 2rem;
+  }
+
+  .btn {
+    margin-bottom: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  h1 {
+    padding-top: 0;
   }
 
 }
